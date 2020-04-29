@@ -60,9 +60,9 @@
 		D511727E24509D220074DBAB /* Instagrid-version8 */ = {
 			isa = PBXGroup;
 			children = (
+				D5707DD0245A05F50050591F /* Model */,
 				D511729B2450A33C0074DBAB /* View */,
 				D511729D2450A38F0074DBAB /* Controller */,
-				D511729C2450A3650074DBAB /* Model */,
 				D511729E2450A3A80074DBAB /* Supporting Files */,
 			);
 			path = "Instagrid-version8";
@@ -74,13 +74,6 @@
 				D511728524509D220074DBAB /* Main.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		D511729C2450A3650074DBAB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		D511729D2450A38F0074DBAB /* Controller */ = {
@@ -103,6 +96,14 @@
 				D511728D24509D220074DBAB /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5707DD0245A05F50050591F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "Model/Instagrid-version8/Model/Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
