@@ -45,12 +45,12 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="135.5" height="135.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                                <state key="normal" image="Plus"/>
+                                                                <state key="normal" image="Plus1"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="at9-6s-3Z9">
                                                                 <rect key="frame" x="155.5" y="0.0" width="135.5" height="135.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <state key="normal" image="Plus"/>
+                                                                <state key="normal" image="Plus1"/>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -60,12 +60,12 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYC-Xy-r28">
                                                                 <rect key="frame" x="0.0" y="0.0" width="135.5" height="135.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <state key="normal" image="Plus"/>
+                                                                <state key="normal" image="Plus1"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRu-XL-y4c">
                                                                 <rect key="frame" x="155.5" y="0.0" width="135.5" height="135.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <state key="normal" image="Plus"/>
+                                                                <state key="normal" image="Plus1"/>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -114,7 +114,7 @@
                                                 </variation>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe left to share" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxi-O8-Orv">
-                                                <rect key="frame" x="-18.5" y="144" width="184" height="72"/>
+                                                <rect key="frame" x="12.5" y="144" width="184" height="72"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="H5g-J8-5AR"/>
                                                 </constraints>
@@ -123,7 +123,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow Left" translatesAutoresizingMaskIntoConstraints="NO" id="3MD-lp-g2m">
-                                                <rect key="frame" x="61" y="80" width="25" height="25"/>
+                                                <rect key="frame" x="92" y="80" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="fMV-8f-Et4"/>
                                                     <constraint firstAttribute="width" constant="25" id="gaJ-18-Mi2"/>
@@ -166,14 +166,14 @@
                                                 <exclude reference="3MD-lp-g2m"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <exclude reference="47M-ea-Wko"/>
+                                                <exclude reference="D0w-2I-CTH"/>
                                                 <exclude reference="CAF-pJ-lQU"/>
                                                 <exclude reference="ELo-Ff-jhh"/>
                                                 <exclude reference="FOh-pU-Odr"/>
                                                 <exclude reference="NI3-CN-uzG"/>
                                                 <exclude reference="btn-AF-6ft"/>
                                                 <exclude reference="pWZ-di-13R"/>
-                                                <exclude reference="47M-ea-Wko"/>
-                                                <exclude reference="D0w-2I-CTH"/>
                                                 <exclude reference="Tqw-me-979"/>
                                                 <exclude reference="YtN-HD-vrS"/>
                                             </mask>
@@ -184,12 +184,12 @@
                                                 <include reference="3MD-lp-g2m"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <include reference="47M-ea-Wko"/>
+                                                <include reference="D0w-2I-CTH"/>
                                                 <include reference="CAF-pJ-lQU"/>
                                                 <include reference="ELo-Ff-jhh"/>
                                                 <include reference="FOh-pU-Odr"/>
                                                 <include reference="NI3-CN-uzG"/>
-                                                <include reference="47M-ea-Wko"/>
-                                                <include reference="D0w-2I-CTH"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
@@ -205,18 +205,18 @@
                                         </variation>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WLh-mZ-Bgi">
-                                        <rect key="frame" x="548" y="0.0" width="119" height="330"/>
+                                        <rect key="frame" x="689" y="0.0" width="119" height="348"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP8-vF-cU8">
-                                                <rect key="frame" x="0.0" y="0.0" width="119" height="103.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="119" height="109.5"/>
                                                 <state key="normal" backgroundImage="Layout 3"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN6-uw-5sc">
-                                                <rect key="frame" x="0.0" y="113.5" width="119" height="103"/>
+                                                <rect key="frame" x="0.0" y="119.5" width="119" height="109"/>
                                                 <state key="normal" backgroundImage="Layout 2"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFC-W5-tAs">
-                                                <rect key="frame" x="0.0" y="226.5" width="119" height="103.5"/>
+                                                <rect key="frame" x="0.0" y="238.5" width="119" height="109.5"/>
                                                 <state key="normal" backgroundImage="Layout 1"/>
                                             </button>
                                         </subviews>
@@ -425,6 +425,6 @@
         <image name="Layout 1" width="27" height="27"/>
         <image name="Layout 2" width="27" height="27"/>
         <image name="Layout 3" width="27" height="27"/>
-        <image name="Plus" width="13.5" height="13.5"/>
+        <image name="Plus1" width="57" height="57"/>
     </resources>
 </document>
