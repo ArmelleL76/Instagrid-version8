@@ -45,12 +45,12 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="135.5" height="135.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                                <state key="normal" image="Plus"/>
+                                                                <state key="normal" image="Plus1"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="at9-6s-3Z9">
                                                                 <rect key="frame" x="155.5" y="0.0" width="135.5" height="135.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <state key="normal" image="Plus"/>
+                                                                <state key="normal" image="Plus1"/>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -60,12 +60,12 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYC-Xy-r28">
                                                                 <rect key="frame" x="0.0" y="0.0" width="135.5" height="135.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <state key="normal" image="Plus"/>
+                                                                <state key="normal" image="Plus1"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRu-XL-y4c">
                                                                 <rect key="frame" x="155.5" y="0.0" width="135.5" height="135.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <state key="normal" image="Plus"/>
+                                                                <state key="normal" image="Plus1"/>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -168,6 +168,8 @@
                                                 <exclude reference="3MD-lp-g2m"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <exclude reference="47M-ea-Wko"/>
+                                                <exclude reference="D0w-2I-CTH"/>
                                                 <exclude reference="CAF-pJ-lQU"/>
                                                 <exclude reference="ELo-Ff-jhh"/>
                                                 <exclude reference="FOh-pU-Odr"/>
@@ -176,8 +178,6 @@
                                                 <exclude reference="pWZ-di-13R"/>
                                                 <exclude reference="Tqw-me-979"/>
                                                 <exclude reference="YtN-HD-vrS"/>
-                                                <exclude reference="47M-ea-Wko"/>
-                                                <exclude reference="D0w-2I-CTH"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=compact">
@@ -186,12 +186,12 @@
                                                 <include reference="3MD-lp-g2m"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <include reference="47M-ea-Wko"/>
+                                                <include reference="D0w-2I-CTH"/>
                                                 <include reference="CAF-pJ-lQU"/>
                                                 <include reference="ELo-Ff-jhh"/>
                                                 <include reference="FOh-pU-Odr"/>
                                                 <include reference="NI3-CN-uzG"/>
-                                                <include reference="47M-ea-Wko"/>
-                                                <include reference="D0w-2I-CTH"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
@@ -428,6 +428,6 @@
         <image name="Layout 1" width="27" height="27"/>
         <image name="Layout 2" width="27" height="27"/>
         <image name="Layout 3" width="27" height="27"/>
-        <image name="Plus" width="13.5" height="13.5"/>
+        <image name="Plus1" width="54" height="54"/>
     </resources>
 </document>
