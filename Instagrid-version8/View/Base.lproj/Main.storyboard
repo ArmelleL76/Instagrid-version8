@@ -114,7 +114,7 @@
                                                 </variation>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe left to share" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxi-O8-Orv">
-                                                <rect key="frame" x="-30.5" y="87.5" width="184" height="60"/>
+                                                <rect key="frame" x="12.5" y="124" width="184" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="gdQ-K1-udX"/>
                                                 </constraints>
@@ -123,7 +123,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow Left" translatesAutoresizingMaskIntoConstraints="NO" id="3MD-lp-g2m">
-                                                <rect key="frame" x="49" y="80" width="25" height="25"/>
+                                                <rect key="frame" x="92" y="80" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="fMV-8f-Et4"/>
                                                     <constraint firstAttribute="width" constant="25" id="gaJ-18-Mi2"/>
@@ -208,18 +208,18 @@
                                         </variation>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WLh-mZ-Bgi">
-                                        <rect key="frame" x="449" y="0.0" width="119" height="275"/>
+                                        <rect key="frame" x="689" y="0.0" width="119" height="348"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP8-vF-cU8">
-                                                <rect key="frame" x="0.0" y="0.0" width="119" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="119" height="109.5"/>
                                                 <state key="normal" backgroundImage="Layout 3"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN6-uw-5sc">
-                                                <rect key="frame" x="0.0" y="95" width="119" height="85"/>
+                                                <rect key="frame" x="0.0" y="119.5" width="119" height="109"/>
                                                 <state key="normal" backgroundImage="Layout 2"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFC-W5-tAs">
-                                                <rect key="frame" x="0.0" y="190" width="119" height="85"/>
+                                                <rect key="frame" x="0.0" y="238.5" width="119" height="109.5"/>
                                                 <state key="normal" backgroundImage="Layout 1"/>
                                             </button>
                                         </subviews>
@@ -419,7 +419,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="202" y="-914"/>
+            <point key="canvasLocation" x="63" y="-897"/>
         </scene>
     </scenes>
     <resources>
