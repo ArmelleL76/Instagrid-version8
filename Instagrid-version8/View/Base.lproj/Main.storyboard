@@ -222,13 +222,9 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="GTg-iD-JN1"/>
-                                        <exclude reference="H86-fJ-PJ7"/>
                                         <exclude reference="Nr0-0H-HOX"/>
                                         <exclude reference="OFD-RL-ECg"/>
-                                        <exclude reference="tbL-c0-uIU"/>
                                         <exclude reference="4v4-FQ-zOK"/>
-                                        <exclude reference="8IO-vR-4Gc"/>
                                         <exclude reference="duI-oJ-hOc"/>
                                         <exclude reference="uWk-Ue-YTu"/>
                                         <exclude reference="Btb-Tk-B7P"/>
@@ -289,7 +285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="275" y="-958"/>
+            <point key="canvasLocation" x="413" y="-942"/>
         </scene>
     </scenes>
     <resources>
